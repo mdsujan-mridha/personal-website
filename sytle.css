@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: blanchedalmond;
+}
+.hero{
+    width: 100%;
+    height: auto;
+}
+.hero__area{
+   margin-top: 5%;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.hero__containt{
+    margin-left: 10%;
+    width: 45%;
+
+}
+.hero__title{
+    color: chocolate;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 100px;
+    font-family: Yeseva One;
+}
+.hero__title--2{
+    color: rgb(20, 202, 235);
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 100px;
+    font-family: Yeseva One;
+}
+.hero__paragraph{
+    font-size: 20px;
+    font-family: Yeseva One;
+    line-height: 25px;
+}
+.hero__btn{
+    margin-top: 20px;
+    border: none;
+    background-color: crimson;
+    color: white;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hero__img{
+    margin-left: 7%;
+    width: 426px;
+    height: 426px;
+    margin-top: -5%;
+}
+.hero__img--area{
+    width: 45%;
+
+}
+.hero__bottom--line{
+    margin-left: 13%;
+    margin-top: 100px;
+    font-size: 20px;
+
+}
+
+.t{
+    border-left: 6px solid green;
+    height: 150px;
+    position: absolute;
+    left: 13.5%;
+    margin-left: -3px;
+   top:120px;
+}
+
+.mission{
+    width: 100%;
+    height: auto;
+    margin-top: 15%;
+
+}
+
+.mission__title{
+    font-size: 50px;
+    color: mediumorchid;
+    font-weight: 600;
+    text-align: center;
+    font-family: Poppins;
+}
+.title__style{
+    color: rgb(226, 102, 57);
+}
+.hr{
+    border: 5px solid rgba(0, 128, 0, 0.637);
+    border-radius: 5px;
+    width: 300px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.mission__area{
+
+    display: flex;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+.mission__card-1{
+    width: 360px;
+    height: 376px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgba(175, 238, 238, 0.527);
+    color: black;
+    border-radius: 10px;
+
+}
+
+.mission__card-2{
+
+    width: 360px;
+    height: 376px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgba(169, 169, 169, 0.431);
+    color: rgb(212, 202, 221);
+    border-radius: 10px;
+
+
+}
+.mission__card-3{
+
+    width: 360px;
+    height: 376px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: rgba(162, 180, 131, 0.575);
+    color: black;
+    border-radius: 10px;
+
+
+}
+
+.card__img--1, .card__img--2, .card__img--3{
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 126px;
+    height: 126px;
+
+}
+
+.card__title{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    line-height: 80px;
+}
+.card__containt{
+    margin-left: 20px;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Poppins;
+    line-height: 30px;
+}
+.develop--img, .community--img{
+    width: 350px;
+    height: 350px;
+
+}
+.develop{
+margin-top: 15%;
+width: 100%;
+height: auto;
+
+
+}
+.develop__area{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+    padding-bottom: 100px;
+    
+background-image: url('images/shape-1.png');
+background-repeat: no-repeat;
+background-position: left;
+background-size: 227px 227px;
+    
+}
+.develop__img--area{
+    width: 40%;
+    margin-top: 30px;
+    margin-left: 5%;
+}
+
+.develop__containt--area{
+    width: 40%;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 8%;
+
+}
+
+.develop__title, .community--title{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: Poppins;
+    line-height: 56px;
+}
+.develop--paragrapg, .community--paragraph{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+justify-content: space-between;
+margin-right: 2%;
+}
+.develop--btn, .community--btn{
+    margin-top: 50px;
+    border: none;
+    background-color: crimson;
+    color: white;
+    font-size: 20px;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.community{
+    margin-top: 20%;
+    width: 100%;
+    height: auto;
+    padding-bottom: 100px;
+  
+
+
+}
+
+.community__area{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+
+}
+
+.community__containt--area{
+    width: 40%;
+    height: auto;
+    margin-left: 5%;
+}
+.community__img--area{
+    margin-left: 15%;
+}
+
+.skill{
+    margin-top: 20%;
+    width: 100%;
+    background:linear-gradient(0deg, rgba(7, 6, 7, 0.541), rgba(8, 8, 8, 0.657)), url('images/skill.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 40%;
+}
+
+.skill__area{
+    align-items: right;
+    float: right;
+    margin-top: 20%;
+    width: 30%;
+    height: auto;
+    margin-right: 10%;
+}
+.skill--title{
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 56px;
+    color: tomato;
+    text-align: center;
+    font-family: Open Sans;
+}
+
+.skill--paragraph{
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    align-items: right;
+    text-align: right;
+    margin-right: 35%;
+    line-height: 50px;
+    font-family: Open Sans;
+
+}
+
+.skill---btn{
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(255, 237, 71);
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    color: black;
+     float: right;
+     margin-right: 33%;
+     cursor: pointer;
+}
+footer{
+    position: absolute;
+    margin-top: 20%;
+    left: 0;
+    right: 0;
+    background: rgb(34, 31, 31);
+    height: auto;
+    width: 100vw;
+    color: rgb(255, 255, 254);
+  
+}
+.footer--title{
+    margin-top: 20px;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 80px;
+    font-family: 'Lobster', cursive;
+
+}
+.footer--iteam{
+ 
+   height: 120px;
+    text-align: center;
+}
+
+.footer--paragraph{
+    font-size: 20px;
+    color: lightslategray;
+}
+.footer--sytle{
+    color: rgba(190, 10, 190, 0.863);
+}
+
+
+
+
+@media screen and (max-width: 900px) {
+.hero__area{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__img{
+    margin-left: 7%;
+    width: 200px;
+    height: 200px;
+    margin-top: 1%;
+}
+.t{
+    display: none;
+}
+.hr{
+    display: none;
+}
+
+.mission__area{
+    display: flex;
+    flex-direction: column;
+}
+.mission__card-1, .mission__card-2, .mission__card-3{
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+
+  }
